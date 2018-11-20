@@ -1,0 +1,43 @@
+🐇🐶🍇
+
+	📗
+		Just the name of the pet
+	📗
+	🖍🆕 name 🔡
+
+	📗
+		The favorite meal of the pet
+	📗
+	🖍🆕 favorite_meal 🔡
+
+	📗
+		A gauge representing the love from the pet to its owner
+	📗
+	🖍🆕 love 🔢
+
+	📗
+		A gauge representing the fullness of the pet
+	📗
+	🖍🆕 fullness 🔢
+
+	📗
+		A gauge representing the fun of the pet
+	📗
+	🖍🆕 fun 🔢
+
+	
+	📗
+		A state as true when the pet is sick
+		Cure with 💊💉🌡
+	📗
+	🖍🆕 sick 👌
+
+	📗
+		A state as true when the pet is dirty
+		Cure with 🚰🚿🛁🧼🧽🧴
+	📗
+	🖍🆕 dirty 👌
+
+	🆕 🍼 name 🔡 🍼 favorite_meal 🔡 🍼 love 🔢 🍼 fullness 🔢 🍼 fun 🔢 🍼 sick 👌 🍼 dirty 👌 🍇🍉
+
+🍉
