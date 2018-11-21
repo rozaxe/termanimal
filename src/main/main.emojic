@@ -1,52 +1,16 @@
 📦 files 🏠
+📜 🔤🤖.emojic🔤
 
 🏁 🍇
 
 	💭 Get command line arguments (spaces already filtered)
 	🎞🐇💻❗️ ➡️ args
 
-	↪️ 🐔 args ❗️ ▶️ 1 🍇
-		🐽 args 1 ❗️ ➡️ verb
+	💭 Remove program name from arguments
+	🐨 args 0 ❗️
 
-		↪️ verb 🙌 🔤adopt🔤 🍇
-			💭 Let's adopt a pet
-			🆕🔡👂🏼❗️ ➡️ input
-
-			💭 Get only first grapheme
-			🔪 input 0 1 ❗️ ➡️ species
-
-			💭💭 Save it
-
-			💭 Build ~/.termanimal
-			🌳🐇💻  🔤HOME🔤❗️ ➡️ home
-			🍪🍺 home 🔤/.termanimal🔤🍪 ➡️ config_folder
-			📁🕊📑 config_folder❗️
-
-			💭 Retrieve pet's file
-			🍪config_folder 🔤/pet🔤🍪 ➡️ pet_file
-
-			💭 Write data
-			📇 species ❗️ ➡️ data
-			📻🐇📄 pet_file data ❗️
-
-			😀 🍪🔤You just adopted a beautiful 🔤 species 🍪 ❗️
-		🍉
-		🙅 🍇
-			😀 🍪🔤Your pet didn't understand `🔤 verb 🔤`.🔤 🍪 ❗️
-		🍉
-	🍉
-	🙅 🍇
-		💭 Print pet's species, if any
-		🌳🐇💻  🔤HOME🔤❗️ ➡️ home
-		🍪🍺 home 🔤/.termanimal/pet🔤🍪 ➡️ pet_file
-
-		💭 Read pet info from file
-		🥑 data 📇🐇📄 pet_file ❗️ 🍇
-			🍺🔡 data ❗️ ➡️ pet_face
-			👄 pet_face ❗️
-		🍉
-		🙅‍♀️ error 🍇
-			💭 File may not exists, do nothing		
-		🍉
-	🍉
+	💭 Run based on arguments
+	🆕🤖🆕❗️ ➡️ cli
+	🎛 cli args ❗️
+	🎬 cli ❗️
 🍉
