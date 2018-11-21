@@ -4,66 +4,56 @@
 	💭 Store command line `action` (first parameter)
 	🖍🆕 action 🍬🔡
 
-	💭 Store command line `item` (second parameter)
-	🖍🆕 item 🍬🔡
-
 	🆕 🍇🍉
 
 	💭 Parse command line arguments (filtered program name)
 	💭 Cannot be run in initializer (bug)
 	❗️🎛 args 🍨🐚🔡🍆 🍇
 
-		↪️ 🐔 args ❗️ 🙌 2 🍇
-			🐽 args 1 ❗️ ➡️ 🖍item
-		🍉
-		🙅↪️ 🐔 args ❗️ ▶️🙌 1 🍇
+		↪️ 🐔 args ❗️ 🙌 1 🍇
 			🐽 args 0 ❗️ ➡️ 🖍action
 		🍉
 	🍉
 
+	💭 Act in function of action
 	❗️🎬 🍇
 
 		↪️ action ➡️ the_action 🍇
 			💭 Pet interaction
 
-			↪️ item ➡️ the_item 🍇
-				💭 Action + item
-
-
-			🍉
-			🙅🍇
-				💭 Action only			
-
-
-				↪️ the_action 🙌 🔤adopt🔤 🍇
-					💭 Let's adopt a pet
-					🆕🔡👂🏼❗️ ➡️ input
-
-					💭 Get only first grapheme
-					🔪 input 0 1 ❗️ ➡️ species
-
-					💭💭 Save it
-
-					💭 Build ~/.termanimal
-					🌳🐇💻  🔤HOME🔤❗️ ➡️ home
-					🍪🍺 home 🔤/.termanimal🔤🍪 ➡️ config_folder
-					📁🕊📑 config_folder❗️
-
-					💭 Retrieve pet's file
-					🍪config_folder 🔤/pet🔤🍪 ➡️ pet_file
-
-					💭 Write data
-					📇 species ❗️ ➡️ data
-					📻🐇📄 pet_file data ❗️
-
-					😀 🍪🔤You just adopted a beautiful 🔤 species 🍪 ❗️
-				🍉
-				🙅 🍇
-					😀 🍪🔤Your pet didn't understand `🔤 the_action 🔤`.🔤 🍪 ❗️
-				🍉
-
+			↪️ 😀🐕 the_action❓ 🍇
+				💭 Feed pet
+				😀 🍪 🔤Your pet eats 🔤 the_action 🍪 ❗️
 
 			🍉
+			🙅↪️ the_action 🙌 🔤adopt🔤 🍇
+				💭 Let's adopt a pet
+				🆕🔡👂🏼❗️ ➡️ input
+
+				💭 Get only first grapheme
+				🔪 input 0 1 ❗️ ➡️ species
+
+				💭💭 Save it
+
+				💭 Build ~/.termanimal
+				🌳🐇💻  🔤HOME🔤❗️ ➡️ home
+				🍪🍺 home 🔤/.termanimal🔤🍪 ➡️ config_folder
+				📁🕊📑 config_folder❗️
+
+				💭 Retrieve pet's file
+				🍪config_folder 🔤/pet🔤🍪 ➡️ pet_file
+
+				💭 Write data
+				📇 species ❗️ ➡️ data
+				📻🐇📄 pet_file data ❗️
+
+				😀 🍪🔤You just adopted a beautiful 🔤 species 🍪 ❗️
+			🍉
+			🙅 🍇
+				😀 🍪🔤Your pet didn't understand `🔤 the_action 🔤`.🔤 🍪 ❗️
+			🍉
+
+
 		🍉
 		🙅🍇
 			💭 Prompt status
@@ -85,5 +75,10 @@
 
 
 		🍉
+	🍉
+
+	💭 Check if a grapheme is food emoji
+	❓😀 str 🔡 ➡️ 👌 🍇
+		↩️ ❎ 🤷‍♂️ 🙌  🔍 🔤🍏🍎🍐🍊🍋🍌🍉🍇🍓🍈🍒🍑🥭🍍🥥🥝🍅🍆🥑🥦🥬🥒🌶🌽🥕🥔🍠🥐🥯🍞🥖🥨🧀🥚🍳🥞🥓🥩🍗🍖🦴🌭🍔🍟🍕🥪🥙🌮🌯🥗🥘🍝🍜🍲🍛🍣🍱🥟🍤🍙🍚🍘🍥🥠🥮🍢🍡🍧🍨🍦🥧🧁🍰🎂🍮🍭🍬🍫🍿🍩🍪🌰🥜🍯🔤 str❗️❗️
 	🍉
 🍉
