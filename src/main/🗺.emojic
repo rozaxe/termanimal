@@ -1,0 +1,43 @@
+🐇🗺🍇
+
+	💭 Feed process
+	🐇❗🍕 food 🔡 🍇
+
+		↪️ 📽🐇📀❗️➡️ pet 🍇
+
+			💭 Increase fullness gauge
+			🍕 pet ❗️ ➡️ fullness
+			fullness ➕ 1 ➡️ new_fullness
+			🍔 pet new_fullness ❗️
+
+			💭 Update pet info
+			🎥🐇📀 pet❗️
+
+			💭 Feedback
+			😀 🍪 🧬pet❗️ 🔤 ate 🔤 food 🍪 ❗️
+		🍉
+	🍉
+
+	💭 Adoption process
+	🐇❗🏡🍇
+
+		😀 🔤Welcome to our animal shelter !🔤❗️
+		💭😀 🔤We heard you wanted to 🔤❗️
+
+		💭 Wait for species
+		🆕🔡👂🏼❗️ ➡️ input
+
+		💭 Get only first grapheme
+		🔪 input 0 1❗️ ➡️ species
+
+		😀 🍪🔤You're in luck ! We just found a 🔤 species 🔤 waiting for some love from a new family.🔤 🍪❗️
+
+		💭 Build pet
+		🆕🐶🥚 species❗️ ➡️ pet
+
+		💭 Save it
+		🎥🐇📀 pet❗️
+
+		😀 🍪🔤You just adopted a beautiful 🔤 species 🍪❗️
+	🍉
+🍉

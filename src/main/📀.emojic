@@ -1,0 +1,37 @@
+💭 Handle I/O
+💭 Pet file is ~/.termanimal/pet
+🐇📀🍇
+
+	💭 Store pet data
+	🐇❗️🎥 pet 🐶 🍇
+
+		💭 Build ~/.termanimal (do nothing if exists)
+		🌳🐇💻  🔤HOME🔤❗️ ➡️ home
+		🍪🍺 home 🔤/.termanimal🔤🍪 ➡️ config_folder
+		📁🕊📑 config_folder❗️
+
+		💭 Compute pet's file
+		🍪config_folder 🔤/pet🔤🍪 ➡️ pet_file
+
+		💭 Write data
+		📻🐇📄 pet_file 📇 pet ❗️ ❗️
+	🍉
+
+	💭 Load pet data
+	🐇❗️📽 ➡️ 🍬🐶 🍇
+
+		🌳🐇💻  🔤HOME🔤❗️ ➡️ home
+		🍪🍺 home 🔤/.termanimal/pet🔤🍪 ➡️ pet_file
+
+		💭 Read pet info from file
+		🥑 data 📇🐇📄 pet_file ❗️ 🍇
+			🖨🐇🐶 data ❗ ➡️ pet
+			↩️ pet
+		🍉
+		🙅‍♀️ error 🍇
+			💭 File does not exists, do nothing		
+		🍉
+
+		↩️ 🤷‍♂️
+	🍉
+🍉

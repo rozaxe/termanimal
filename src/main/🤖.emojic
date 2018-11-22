@@ -1,3 +1,8 @@
+📜 🔤😀.emojic🔤
+📜 🔤📀.emojic🔤
+📜 🔤🐶.emojic🔤
+📜 🔤🗺.emojic🔤
+
 💭 Parse command line arguments
 🐇🤖🍇
 
@@ -21,64 +26,31 @@
 		↪️ action ➡️ the_action 🍇
 			💭 Pet interaction
 
-			↪️ 😀🐕 the_action❓ 🍇
-				💭 Feed pet
-				😀 🍪 🔤Your pet eats 🔤 the_action 🍪 ❗️
+			↪️ 🍏🐕 the_action❓ 🍇
 
+				💭 Feed pet
+				🍕🐇🗺 the_action ❗
 			🍉
 			🙅↪️ the_action 🙌 🔤adopt🔤 🍇
-				💭 Let's adopt a pet
-				🆕🔡👂🏼❗️ ➡️ input
 
-				💭 Get only first grapheme
-				🔪 input 0 1 ❗️ ➡️ species
-
-				💭💭 Save it
-
-				💭 Build ~/.termanimal
-				🌳🐇💻  🔤HOME🔤❗️ ➡️ home
-				🍪🍺 home 🔤/.termanimal🔤🍪 ➡️ config_folder
-				📁🕊📑 config_folder❗️
-
-				💭 Retrieve pet's file
-				🍪config_folder 🔤/pet🔤🍪 ➡️ pet_file
-
-				💭 Write data
-				📇 species ❗️ ➡️ data
-				📻🐇📄 pet_file data ❗️
-
-				😀 🍪🔤You just adopted a beautiful 🔤 species 🍪 ❗️
+				💭 Adopt pet
+				🏡🐇🗺❗️
 			🍉
 			🙅 🍇
+
 				😀 🍪🔤Your pet didn't understand `🔤 the_action 🔤`.🔤 🍪 ❗️
 			🍉
-
-
 		🍉
 		🙅🍇
 			💭 Prompt status
-
-
-
-			💭 Print pet's species, if any
-			🌳🐇💻  🔤HOME🔤❗️ ➡️ home
-			🍪🍺 home 🔤/.termanimal/pet🔤🍪 ➡️ pet_file
-
-			💭 Read pet info from file
-			🥑 data 📇🐇📄 pet_file ❗️ 🍇
-				🍺🔡 data ❗️ ➡️ pet_face
-				👄 pet_face ❗️
+			↪️ 📽🐇📀❗️➡️ pet 🍇
+				👄 🧬pet ❗️❗️
 			🍉
-			🙅‍♀️ error 🍇
-				💭 File may not exists, do nothing		
-			🍉
-
-
 		🍉
 	🍉
 
 	💭 Check if a grapheme is food emoji
-	❓😀 str 🔡 ➡️ 👌 🍇
-		↩️ ❎ 🤷‍♂️ 🙌  🔍 🔤🍏🍎🍐🍊🍋🍌🍉🍇🍓🍈🍒🍑🥭🍍🥥🥝🍅🍆🥑🥦🥬🥒🌶🌽🥕🥔🍠🥐🥯🍞🥖🥨🧀🥚🍳🥞🥓🥩🍗🍖🦴🌭🍔🍟🍕🥪🥙🌮🌯🥗🥘🍝🍜🍲🍛🍣🍱🥟🍤🍙🍚🍘🍥🥠🥮🍢🍡🍧🍨🍦🥧🧁🍰🎂🍮🍭🍬🍫🍿🍩🍪🌰🥜🍯🔤 str❗️❗️
+	❓🍏 str 🔡 ➡️ 👌 🍇
+		↩️ ❎ 🤷‍♂️ 🙌  🔍 🍏🐇😀❗️ str❗️❗️
 	🍉
 🍉
