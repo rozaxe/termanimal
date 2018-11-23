@@ -4,10 +4,13 @@
 
 	🖍🆕 fullness 🔢
 
-	🆕 🍼 species 🔡 🍼 fullness 🔢 🍇🍉
+	🖍🆕 fun 🔢
+
+	🆕 🍼 species 🔡 🍼 fullness 🔢 🍼 fun 🔢 🍇🍉
 
 	🆕🥚 🍼 species 🔡 🍇
 		0 ➡️🖍 fullness
+		0 ➡️🖍 fun
 	🍉
 
 	💭 Serialize pet data
@@ -18,6 +21,7 @@
 
 		🐻 info species ❗️
 		🐻 info 🔡 fullness 10 ❗️❗️
+		🐻 info 🔡 fun 10 ❗️❗️
 
 		💭 Join it by adding new line
 		🆕🔡🍨 info 🔤❌n🔤❗️ ➡️ stringify
@@ -34,22 +38,23 @@
 		🔫 content 🔤❌n🔤 ❗️➡️ lines
 
 		💭 Check for invalid pet file
-		↪️❎ 2 🙌 🐔 lines ❗️❗️🍇
+		↪️❎ 3 🙌 🐔 lines ❗️❗️🍇
 			↩️🤷‍♂️
 		🍉
 
 		💭 Retrieve info
 		🐽 lines 0 ❗️➡️ species
 		🐽 lines 1 ❗️➡️ fullness_str
+		🐽 lines 2 ❗️➡️ fun_str
 
 		💭 Handle parsing
 		🔢 fullness_str 10❗️➡️ fullness
+		🔢 fun_str 10❗️➡️ fun
 
-		↪️🤷‍♂️🙌 fullness 🍇
-			↩️🤷‍♂️
-		🍉
+		↪️🤷‍♂️🙌 fullness 🍇↩️🤷‍♂️🍉
+		↪️🤷‍♂️🙌 fun 🍇↩️🤷‍♂️🍉
 
-		🆕🐶🆕 species 🍺fullness ❗️➡️ pet
+		🆕🐶🆕 species 🍺fullness 🍺fun ❗️➡️ pet
 		↩️ pet
 	🍉
 
@@ -63,8 +68,18 @@
 		↩️ fullness
 	🍉
 
+	❗🥏➡️🔢🍇
+		↩️ fun
+	🍉
+
+
+	💭 Setters
 
 	❗🍔 value 🔢🍇
 		value ➡️ 🖍fullness
+	🍉
+
+	❗🎾 value 🔢🍇
+		value ➡️ 🖍fun
 	🍉
 🍉

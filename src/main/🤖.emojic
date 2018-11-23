@@ -31,6 +31,16 @@
 				💭 Feed pet
 				🍕🐇🗺 the_action ❗
 			🍉
+			🙅↪️ 🥏🐕 the_action❓ 🍇
+
+				💭 Play with pet
+				🥏🐇🗺 the_action ❗
+			🍉
+			🙅↪️ the_action 🙌 🔤status🔤 🍇
+
+				💭 Display pet status
+				📊🐇🗺❗️
+			🍉
 			🙅↪️ the_action 🙌 🔤adopt🔤 🍇
 
 				💭 Adopt pet
@@ -38,7 +48,7 @@
 			🍉
 			🙅 🍇
 
-				😀 🍪🔤Your pet didn't understand `🔤 the_action 🔤`.🔤 🍪 ❗️
+				😀 🍪🔤Your pet didn't understand `🔤 the_action 🔤`.🔤🍪 ❗️
 			🍉
 		🍉
 		🙅🍇
@@ -52,5 +62,10 @@
 	💭 Check if a grapheme is food emoji
 	❓🍏 str 🔡 ➡️ 👌 🍇
 		↩️ ❎ 🤷‍♂️ 🙌  🔍 🍏🐇😀❗️ str❗️❗️
+	🍉
+
+	💭 Check if a grapheme is activity emoji
+	❓🥏 str 🔡 ➡️ 👌 🍇
+		↩️ ❎ 🤷‍♂️ 🙌  🔍 🥏🐇😀❗️ str❗️❗️
 	🍉
 🍉
