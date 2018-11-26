@@ -6,15 +6,23 @@
 		↪️ 📽🐇📀❗️➡️ pet 🍇
 
 			💭 Increase fullness gauge
-			🍕 pet ❗️ ➡️ fullness
-			fullness ➕ 1 ➡️ new_fullness
-			🍔 pet new_fullness ❗️
+			🍕 pet ❗️ ➡️ 🖍🆕 fullness
 
-			💭 Update pet info
-			🎥🐇📀 pet❗️
+			💭 Cap to 4
+			↪️ fullness ◀️ 4 🍇
+				fullness ➕ 1 ➡️ 🖍fullness
 
-			💭 Feedback
-			😀 🍪 🧬pet❗️ 🔤 ate 🔤 food 🍪 ❗️
+				💭 Update pet info
+				🍔 pet fullness ❗️
+				🎥🐇📀 pet❗️
+
+				💭 Feedback
+				😀 🍪 🧬pet❗️ 🔤 ate 🔤 food 🍪 ❗️
+			🍉
+			🙅🍇
+				💭 Not hungry
+				😀 🍪 🧬pet❗️ 🔤 is not hungry🔤 🍪 ❗️
+			🍉
 		🍉
 	🍉
 
@@ -24,15 +32,23 @@
 		↪️ 📽🐇📀❗️➡️ pet 🍇
 
 			💭 Increase fun gauge
-			🥏 pet ❗️ ➡️ fun
-			fun ➕ 1 ➡️ new_fun
-			🎾 pet new_fun ❗️
+			🥏 pet ❗️ ➡️ 🖍🆕 fun
 
-			💭 Update pet info
-			🎥🐇📀 pet❗️
+			💭 Cap to 4
+			↪️ fun ◀️ 4 🍇
+				fun ➕ 1 ➡️ 🖍fun
 
-			💭 Feedback
-			😀 🍪 🧬pet❗️ 🔤 played 🔤 activity 🍪 ❗️
+				💭 Update pet info
+				🎾 pet fun ❗️
+				🎥🐇📀 pet❗️
+
+				💭 Feedback
+				😀 🍪 🧬pet❗️ 🔤 played 🔤 activity 🍪 ❗️
+			🍉
+			🙅🍇
+				💭 Overexited
+				😀 🍪 🧬pet❗️ 🔤 growls🔤 🍪 ❗️
+			🍉
 		🍉
 	🍉
 
