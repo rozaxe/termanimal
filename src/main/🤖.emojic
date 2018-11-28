@@ -46,7 +46,7 @@
 						💭 Play with pet
 						🥏🐇🗺 the_action ❗
 					🍉
-					🙅↪️ the_action 🙌 🔤status🔤 🍇
+					🙅↪️ the_action 🙌 🔤👋🔤 👐 the_action 🙌 🔤status🔤 🍇
 
 						💭 Display pet status
 						📊🐇🗺❗️
@@ -90,14 +90,14 @@
 
 			↪️ action ➡️ the_action 🍇
 
-				↪️ the_action 🙌 🔤adopt🔤 🍇
+				↪️ the_action 🙌 🔤🖊🔤 👐 the_action 🙌 🔤adopt🔤 🍇
 
 					💭 Adopt pet
 					🏡🐇🗺❗️
 				🍉
 				🙅 🍇
 
-					😀 🔤You have not adopted a pet yet, run `termanimal adopt`🔤 ❗️
+					😀 🔤You have not adopted a pet yet, run `termanimal 🖊`🔤 ❗️
 				🍉
 			🍉
 		🍉

@@ -3,7 +3,41 @@
 
 	🐇❗📯 pet 🐶 🍇
 		💭 Compute love
-		💭 TODO
+		🕰🐇💻❗ ➡️ current
+		current ➖ 🕰 pet ❗ ➡️ delta
+		💭 20 hours later, update love
+		↪️ delta ▶️ 72000 🍇
+
+			💭 Update data
+			🍕 pet ❗️ ➡️ fullness
+			🥏 pet ❗️ ➡️ fun
+
+			↪️ fullness 🙌 4 🤝 fun 🙌 4 🍇
+				💭 +1 ❤️ on fullness and fun
+				💖 pet ❗️ ➡️ 🖍🆕 love
+
+				💭 Cap to 4
+				↪️ love ◀️ 4 🍇
+					love ➕ 1 ➡️ 🖍love
+					💘 pet love ❗️
+				🍉
+			🍉
+			🙅↪️ fullness 🙌 0 🤝 fun 🙌 0 🍇
+				💭 -1 ❤️ on hunger and bored
+				💖 pet ❗️ ➡️ 🖍🆕 love
+
+				💭 Cap to 0
+				↪️ love ▶️ 0 🍇
+					love ➖ 1 ➡️ 🖍love
+					💘 pet love ❗️
+				🍉
+			🍉
+
+			🍔 pet 0 ❗️
+			🎾 pet 0 ❗️
+			⏰ pet current❗
+			🎥🐇📀 pet❗️
+		🍉
 
 		💭 Update state
 		🆕🎰🆕❗️ ➡️ generator

@@ -2,15 +2,21 @@
 
 	🖍🆕 species 🔡
 
+	🖍🆕 love 🔢
+
 	🖍🆕 fullness 🔢
 
 	🖍🆕 fun 🔢
 
-	🆕 🍼 species 🔡 🍼 fullness 🔢 🍼 fun 🔢 🍇🍉
+	🖍🆕 last_day_of_love 🔢
+
+	🆕 🍼 species 🔡 🍼 love 🔢 🍼 fullness 🔢 🍼 fun 🔢 🍼 last_day_of_love 🔢 🍇🍉
 
 	🆕🥚 🍼 species 🔡 🍇
-		0 ➡️🖍 fullness
-		0 ➡️🖍 fun
+		0 ➡️🖍 love
+		2 ➡️🖍 fullness
+		2 ➡️🖍 fun
+		🕰🐇💻❗ ➡️🖍 last_day_of_love
 	🍉
 
 	💭 Serialize pet data
@@ -20,8 +26,10 @@
 		🆕🍨🐚🔡🍆🐸❗️ ➡️ info
 
 		🐻 info species ❗️
+		🐻 info 🔡 love 10 ❗️❗️
 		🐻 info 🔡 fullness 10 ❗️❗️
 		🐻 info 🔡 fun 10 ❗️❗️
+		🐻 info 🔡 last_day_of_love 10 ❗️❗️
 
 		💭 Join it by adding new line
 		🆕🔡🍨 info 🔤❌n🔤❗️ ➡️ stringify
@@ -38,23 +46,29 @@
 		🔫 content 🔤❌n🔤 ❗️➡️ lines
 
 		💭 Check for invalid pet file
-		↪️❎ 3 🙌 🐔 lines ❗️❗️🍇
+		↪️❎ 5 🙌 🐔 lines ❗️❗️🍇
 			↩️🤷‍♂️
 		🍉
 
 		💭 Retrieve info
 		🐽 lines 0 ❗️➡️ species
-		🐽 lines 1 ❗️➡️ fullness_str
-		🐽 lines 2 ❗️➡️ fun_str
+		🐽 lines 1 ❗️➡️ love_str
+		🐽 lines 2 ❗️➡️ fullness_str
+		🐽 lines 3 ❗️➡️ fun_str
+		🐽 lines 4 ❗️➡️ last_day_of_love_str
 
 		💭 Handle parsing
+		🔢 love_str 10❗️➡️ love
 		🔢 fullness_str 10❗️➡️ fullness
 		🔢 fun_str 10❗️➡️ fun
+		🔢 last_day_of_love_str 10❗️➡️ last_day_of_love
 
+		↪️🤷‍♂️🙌 love 🍇↩️🤷‍♂️🍉
 		↪️🤷‍♂️🙌 fullness 🍇↩️🤷‍♂️🍉
 		↪️🤷‍♂️🙌 fun 🍇↩️🤷‍♂️🍉
+		↪️🤷‍♂️🙌 last_day_of_love 🍇↩️🤷‍♂️🍉
 
-		🆕🐶🆕 species 🍺fullness 🍺fun ❗️➡️ pet
+		🆕🐶🆕 species 🍺love 🍺fullness 🍺fun 🍺last_day_of_love ❗️➡️ pet
 		↩️ pet
 	🍉
 
@@ -62,6 +76,10 @@
 
 	❗🧬 ➡️ 🔡🍇
 		↩️ species
+	🍉
+
+	❗💖➡️🔢🍇
+		↩️ love
 	🍉
 
 	❗🍕➡️🔢🍇
@@ -72,8 +90,16 @@
 		↩️ fun
 	🍉
 
+	❗🕰➡️🔢🍇
+		↩️ last_day_of_love
+	🍉
+
 
 	💭 Setters
+
+	❗💘 value 🔢🍇
+		value ➡️ 🖍love
+	🍉
 
 	❗🍔 value 🔢🍇
 		value ➡️ 🖍fullness
@@ -81,5 +107,9 @@
 
 	❗🎾 value 🔢🍇
 		value ➡️ 🖍fun
+	🍉
+
+	❗⏰ value 🔢🍇
+		value ➡️ 🖍last_day_of_love
 	🍉
 🍉
