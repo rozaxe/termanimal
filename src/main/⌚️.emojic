@@ -2,5 +2,40 @@
 🐇⌚️🍇
 
 	🐇❗📯 pet 🐶 🍇
+		💭 Compute love
+		💭 TODO
+
+		💭 Update state
+		🆕🎰🆕❗️ ➡️ generator
+
+		💭 Decrease food and fun with 1/15
+		🔢 generator 1 15 ❗️ ➡️ alea
+		↪️ alea 🙌 1 🍇
+
+			💭 Decrease hunger gauge
+			🍕 pet ❗️ ➡️ 🖍🆕 fullness
+			↪️ fullness ▶️ 0 🍇
+				fullness ➖ 1 ➡️ 🖍fullness
+
+				💭 Update pet info
+				🍔 pet fullness ❗️
+				🎥🐇📀 pet❗️
+			🍉
+
+			💭 Decrease fun gauge
+			🥏 pet ❗️ ➡️ 🖍🆕 fun
+			↪️ fun ▶️ 0 🍇
+				fun ➖ 1 ➡️ 🖍fun
+
+				💭 Update pet info
+				🎾 pet fun ❗️
+				🎥🐇📀 pet❗️
+			🍉
+		🍉
+
+		💭 Set sick with 1/50
+
+		💭 Set dirty with 1/50
+
 	🍉
 🍉
