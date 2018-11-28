@@ -2,6 +2,7 @@
 📜 🔤📀.emojic🔤
 📜 🔤🐶.emojic🔤
 📜 🔤🗺.emojic🔤
+📜 🔤⌚️.emojic🔤
 
 💭 Parse command line arguments
 🐇🤖🍇
@@ -23,54 +24,81 @@
 	💭 Act in function of action
 	❗️🎬 🍇
 
-		↪️ action ➡️ the_action 🍇
-			💭 Pet interaction
+		↪️ 🤔🐇📀❗️ 🍇
 
-			↪️ 🍏🐕 the_action❓ 🍇
+			💭 Pet file exists
+			↪️ 📽🐇📀❗️➡️ pet 🍇
 
-				💭 Feed pet
-				🍕🐇🗺 the_action ❗
-			🍉
-			🙅↪️ 🥏🐕 the_action❓ 🍇
+				💭 First of all, update pet status
+				📯🐇⌚️ pet ❗️
 
-				💭 Play with pet
-				🥏🐇🗺 the_action ❗
-			🍉
-			🙅↪️ the_action 🙌 🔤status🔤 🍇
+				💭 Act on pet
+				↪️ action ➡️ the_action 🍇
+					💭 Pet interaction
 
-				💭 Display pet status
-				📊🐇🗺❗️
-			🍉
-			🙅↪️ the_action 🙌 🔤adopt🔤 🍇
+					↪️ 🍏🐕 the_action❓ 🍇
 
-				💭 Adopt pet
-				🏡🐇🗺❗️
+						💭 Feed pet
+						🍕🐇🗺 the_action ❗
+					🍉
+					🙅↪️ 🥏🐕 the_action❓ 🍇
+
+						💭 Play with pet
+						🥏🐇🗺 the_action ❗
+					🍉
+					🙅↪️ the_action 🙌 🔤status🔤 🍇
+
+						💭 Display pet status
+						📊🐇🗺❗️
+					🍉
+					🙅 🍇
+
+						😀 🍪🔤Your pet didn't understand `🔤 the_action 🔤`🔤🍪 ❗️
+					🍉
+				🍉
+				🙅🍇
+					💭 Prompt status
+					↪️ 📽🐇📀❗️➡️ pet 🍇
+
+						🔤🔤 ➡️ 🖍🆕 emotion
+
+						↪️ 🍕 pet ❗️ 🙌 4 🤝 🥏 pet ❗️ 🙌 4  🍇
+							🔤😋🔤 ➡️ 🖍emotion
+						🍉
+						🙅↪️ 🍕 pet ❗️ 🙌 0 🤝 🥏 pet ❗️ 🙌 0  🍇
+							🔤😔🔤 ➡️ 🖍emotion
+						🍉
+						🙅↪️ 🍕 pet ❗️ 🙌 0 🍇
+							🔤🥺🔤 ➡️ 🖍emotion
+						🍉
+						🙅↪️ 🥏 pet ❗️ 🙌 0 🍇
+							🔤😠🔤 ➡️ 🖍emotion
+						🍉
+
+						👄 🍪🧬 pet ❗️ emotion 🍪❗️
+					🍉
+				🍉
 			🍉
 			🙅 🍇
 
-				😀 🍪🔤Your pet didn't understand `🔤 the_action 🔤`.🔤🍪 ❗️
+				💭 Remove file
+				🗑🐇📀❗️
+				😀 🔤Pet info corrupted, please adopt again🔤 ❗️
 			🍉
 		🍉
 		🙅🍇
-			💭 Prompt status
-			↪️ 📽🐇📀❗️➡️ pet 🍇
 
-				🔤🔤 ➡️ 🖍🆕 emotion
+			↪️ action ➡️ the_action 🍇
 
-				↪️ 🍕 pet ❗️ 🙌 4 🤝 🥏 pet ❗️ 🙌 4  🍇
-					🔤😋🔤 ➡️ 🖍emotion
-				🍉
-				🙅↪️ 🍕 pet ❗️ 🙌 0 🤝 🥏 pet ❗️ 🙌 0  🍇
-					🔤😔🔤 ➡️ 🖍emotion
-				🍉
-				🙅↪️ 🍕 pet ❗️ 🙌 0 🍇
-					🔤🥺🔤 ➡️ 🖍emotion
-				🍉
-				🙅↪️ 🥏 pet ❗️ 🙌 0 🍇
-					🔤😠🔤 ➡️ 🖍emotion
-				🍉
+				↪️ the_action 🙌 🔤adopt🔤 🍇
 
-				👄 🍪🧬 pet ❗️ emotion 🍪❗️
+					💭 Adopt pet
+					🏡🐇🗺❗️
+				🍉
+				🙅 🍇
+
+					😀 🔤You have not adopted a pet yet, run `termanimal adopt`🔤 ❗️
+				🍉
 			🍉
 		🍉
 	🍉

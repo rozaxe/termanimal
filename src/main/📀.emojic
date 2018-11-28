@@ -17,6 +17,26 @@
 		📻🐇📄 pet_file 📇 pet ❗️ ❗️
 	🍉
 
+	💭 Remove pet data
+	🐇❗️🗑🍇
+
+		🌳🐇💻  🔤HOME🔤❗️ ➡️ home
+		🍪🍺 home 🔤/.termanimal/pet🔤🍪 ➡️ pet_file
+
+		💭 Delete file
+		🔫🕊📑 pet_file ❗️
+	🍉
+
+	💭 Check if pet data exists
+	🐇❗️🤔 ➡️ 👌 🍇
+
+		🌳🐇💻  🔤HOME🔤❗️ ➡️ home
+		🍪🍺 home 🔤/.termanimal/pet🔤🍪 ➡️ pet_file
+
+		💭 Check file exists and is readable and writeable
+		↩️ 📜🕊📑 pet_file ❗️ 🤝 📝🕊📑 pet_file ❗️
+	🍉
+
 	💭 Load pet data
 	🐇❗️📽 ➡️ 🍬🐶 🍇
 
@@ -29,7 +49,7 @@
 			↩️ pet
 		🍉
 		🙅‍♀️ error 🍇
-			💭 File does not exists, do nothing		
+			💭 File may not exists, or pet info have been corrupted
 		🍉
 
 		↩️ 🤷‍♂️
