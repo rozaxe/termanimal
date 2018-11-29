@@ -46,14 +46,37 @@
 						💭 Play with pet
 						🥏🐇🗺 the_action ❗
 					🍉
+					🙅↪️ 💊🐕 the_action❓ 🍇
+
+						💭 Cure pet
+						💊🐇🗺 the_action ❗
+					🍉
+					🙅↪️ 🧼🐕 the_action❓ 🍇
+
+						💭 Clean pet
+						🧼🐇🗺 the_action ❗
+					🍉
 					🙅↪️ the_action 🙌 🔤👋🔤 👐 the_action 🙌 🔤status🔤 🍇
 
 						💭 Display pet status
 						📊🐇🗺❗️
 					🍉
+					🙅↪️ the_action 🙌 🔤🔍🔤 👐 the_action 🙌 🔤help🔤 🍇
+
+						💭 Display help
+						😀 🔤termanimal usage:🔤 ❗️
+						😀 🔤    :food_emoji:     feed pet 🔤 ❗️
+						😀 🔤    :activity_emoji: play with pet 🔤 ❗️
+						😀 🔤    :cure_emoji:     cure pet 🔤 ❗️
+						😀 🔤    :clean_emoji:    clean pet 🔤 ❗️
+						😀 🔤    👋, status       display pet info 🔤 ❗️
+						😀 🔤    🖊, adopt        adopt a pet 🔤 ❗️
+						😀 🔤    🔍, help         display this 🔤 ❗️
+					🍉
 					🙅 🍇
 
-						😀 🍪🔤Your pet didn't understand `🔤 the_action 🔤`🔤🍪 ❗️
+						😀 🍪🧬 pet ❗️ 🔤 didn't understood `🔤 the_action 🔤`🔤🍪 ❗️
+						😀 🔤Run `termanimal (🔍|help)` for a list of command🔤 ❗️
 					🍉
 				🍉
 				🙅🍇
@@ -62,7 +85,13 @@
 
 						🔤🔤 ➡️ 🖍🆕 emotion
 
-						↪️ 🍕 pet ❗️ 🙌 4 🤝 🥏 pet ❗️ 🙌 4  🍇
+						↪️ 🌡 pet ❗️ 🙌 1 🍇
+							🔤🌡🔤 ➡️ 🖍emotion
+						🍉
+						🙅↪️ 🍂 pet ❗️ 🙌 1 🍇
+							🔤🍂🔤 ➡️ 🖍emotion
+						🍉
+						🙅↪️ 🍕 pet ❗️ 🙌 4 🤝 🥏 pet ❗️ 🙌 4  🍇
 							🔤😋🔤 ➡️ 🖍emotion
 						🍉
 						🙅↪️ 🍕 pet ❗️ 🙌 0 🤝 🥏 pet ❗️ 🙌 0  🍇
@@ -111,5 +140,15 @@
 	💭 Check if a grapheme is activity emoji
 	❓🥏 str 🔡 ➡️ 👌 🍇
 		↩️ ❎ 🤷‍♂️ 🙌  🔍 🥏🐇😀❗️ str❗️❗️
+	🍉
+
+	💭 Check if a grapheme is cure emoji
+	❓💊 str 🔡 ➡️ 👌 🍇
+		↩️ ❎ 🤷‍♂️ 🙌  🔍 💊🐇😀❗️ str❗️❗️
+	🍉
+
+	💭 Check if a grapheme is clean emoji
+	❓🧼 str 🔡 ➡️ 👌 🍇
+		↩️ ❎ 🤷‍♂️ 🙌  🔍 🧼🐇😀❗️ str❗️❗️
 	🍉
 🍉

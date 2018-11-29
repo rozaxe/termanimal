@@ -52,12 +52,67 @@
 		🍉
 	🍉
 
+	💭 Cure process
+	🐇❗💊 activity 🔡🍇
+
+		↪️ 📽🐇📀❗️➡️ pet 🍇
+
+			💭 Get sick status
+			🌡 pet ❗️ ➡️ sick
+
+			↪️ sick 🙌 1 🍇
+
+				💭 Update pet info
+				💊 pet 0 ❗️
+				🎥🐇📀 pet❗️
+
+				💭 Feedback
+				😀 🍪 🧬pet❗️ 🔤 is cured🔤 🍪 ❗️
+			🍉
+			🙅🍇
+				💭 Not sick
+				😀 🍪 🧬pet❗️ 🔤 is not sick🔤 🍪 ❗️
+			🍉
+		🍉
+	🍉
+
+	💭 Cure process
+	🐇❗🧼 activity 🔡🍇
+
+		↪️ 📽🐇📀❗️➡️ pet 🍇
+
+			💭 Get dirty status
+			🍂 pet ❗️ ➡️ dirty
+
+			↪️ dirty 🙌 1 🍇
+
+				💭 Update pet info
+				🧼 pet 0 ❗️
+				🎥🐇📀 pet❗️
+
+				💭 Feedback
+				😀 🍪 🧬pet❗️ 🔤 is cleaned🔤 🍪 ❗️
+			🍉
+			🙅🍇
+				💭 Not dirty
+				😀 🍪 🧬pet❗️ 🔤 is not dirty🔤 🍪 ❗️
+			🍉
+		🍉
+	🍉
+
 	💭 Status process
 	🐇❗📊🍇
 
 		↪️ 📽🐇📀❗️➡️ pet 🍇
 
-			😀🧬 pet ❗️❗️
+			👄🧬 pet ❗️❗️
+			↪️ 🌡 pet ❗️ 🙌 1 🍇
+				👄🔤 🌡🔤❗️
+			🍉
+			↪️ 🍂 pet ❗️ 🙌 1 🍇
+				👄🔤 🍂🔤❗️
+			🍉
+			😀🔤🔤❗️
 
 			👄 🔤❤️ 🔤❗️
 			🔂 i 🆕⏩⏩ 0 💖 pet ❗️❗️ 🍇
@@ -102,12 +157,24 @@
 		💭 Get only first grapheme
 		🔪 input 0 1❗️ ➡️ species
 
-		😀 🍪🔤You're in luck ! We just found a 🔤 species 🔤 waiting for some love from a new family.🔤 🍪❗️
+		↪️ 🐶🐕 species❓ 🍇
+			😀 🍪🔤You're in luck ! We just found a 🔤 species 🔤 waiting for some love from a new family.🔤 🍪❗️
+			😀 🔤Adoption process done, enjoy your new life with your new bestfriend !🔤❗️
 
-		💭 Build pet
-		🆕🐶🥚 species❗️ ➡️ pet
+			💭 Build pet
+			🆕🐶🥚 species❗️ ➡️ pet
 
-		💭 Save it
-		🎥🐇📀 pet❗️
+			💭 Save it
+			🎥🐇📀 pet❗️
+		🍉
+		🙅🍇
+			😀 🍪🔤Sorry but we do not have any `🔤 species 🔤` here.🔤 🍪❗️
+		🍉
+	🍉
+
+	💭 Check if a grapheme is animal emoji
+	🐇❓🐶 str 🔡 ➡️ 👌 🍇
+		↩️ ❎ 🤷‍♂️ 🙌  🔍 🐶🐇😀❗️ str❗️❗️
 	🍉
 🍉
+

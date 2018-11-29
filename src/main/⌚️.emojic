@@ -36,14 +36,13 @@
 			🍔 pet 0 ❗️
 			🎾 pet 0 ❗️
 			⏰ pet current❗
-			🎥🐇📀 pet❗️
 		🍉
 
 		💭 Update state
 		🆕🎰🆕❗️ ➡️ generator
 
 		💭 Decrease food and fun with 1/15
-		🔢 generator 1 15 ❗️ ➡️ alea
+		🔢 generator 1 15 ❗️ ➡️ 🖍🆕 alea
 		↪️ alea 🙌 1 🍇
 
 			💭 Decrease hunger gauge
@@ -53,7 +52,6 @@
 
 				💭 Update pet info
 				🍔 pet fullness ❗️
-				🎥🐇📀 pet❗️
 			🍉
 
 			💭 Decrease fun gauge
@@ -63,13 +61,22 @@
 
 				💭 Update pet info
 				🎾 pet fun ❗️
-				🎥🐇📀 pet❗️
 			🍉
 		🍉
 
 		💭 Set sick with 1/50
+		🔢 generator 1 50 ❗️ ➡️ 🖍alea
+		↪️ alea 🙌 1 🍇
+			💊 pet 1 ❗️
+		🍉
 
 		💭 Set dirty with 1/50
+		🔢 generator 1 50 ❗️ ➡️ 🖍alea
+		↪️ alea 🙌 1 🍇
+			🧼 pet 1 ❗️
+		🍉
 
+		💭 Save everything
+		🎥🐇📀 pet❗️
 	🍉
 🍉
