@@ -22,7 +22,7 @@ $(termanimal)
 For instance, here a basic prompt with pet support :
 
 ```sh
-export PS1=\u@\h:\W:$(termanimal)\$
+export PS1='\u@\h:\W:$(termanimal)\$ '
 username@host:~:🐶$ _
 ```
 
